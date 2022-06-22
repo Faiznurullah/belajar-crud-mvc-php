@@ -100,6 +100,13 @@ public function bind($param, $value, $type = null){
 
     }
 
+    public function rowCount(){
+
+    return $this->stmt->rowCount();
+
+
+    }
+
 
 
 
